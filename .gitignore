@@ -1,0 +1,29 @@
+# Ignore everything in data folder
+data/*
+
+# Keep these data types
+!data/*.txt
+!data/*.csv
+
+# Ignore JSON data files inside /data
+data/*.json
+
+# Ignore model artifacts
+*.pkl
+*.sav
+*.h5
+*.joblib
+
+# Ignore notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore OS/system files
+.DS_Store
+
+# Ignore cache and logs
+__pycache__/
+*.log
