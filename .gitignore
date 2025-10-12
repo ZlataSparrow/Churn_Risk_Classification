@@ -1,12 +1,15 @@
 # Ignore everything in data folder
 data/*
 
-# Keep these data types
+# Keep small, text-based files
 !data/*.txt
 !data/*.csv
+!data/README.md
 
-# Ignore JSON data files inside /data
+# Ignore large or binary data formats
 data/*.json
+data/*.parquet
+data/**/*.parquet
 
 # Ignore model artifacts
 *.pkl
