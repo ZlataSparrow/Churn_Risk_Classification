@@ -1,6 +1,6 @@
 # 🌀 Predicting Customer Churn Using Behavioral Data: ML Models, SHAP Insights, and Retention Simulations (In Progress)
 
-## Behavioral modeling of user engagement, churn risk, and retention strategies
+## Behavioral modeling of user engagement, churn risk,and retention strategies
 
 This project explores and models user churn using a customer behavior dataset. By leveraging both interpretable and powerful machine learning models, the goal is to predict the likelihood of churn and uncover the key behavioral signals driving customer retention.
 
